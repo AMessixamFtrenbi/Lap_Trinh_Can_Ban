@@ -358,7 +358,7 @@ int main()
     T = t;
     for(int i=0;i<n;i++)
     {
-    T += t*45/1000;
+    T += T*45/1000;
     }
     printf(" Sau khi gui %d thi sau %d thang nhan duoc: %d",t,n,T);
 }
